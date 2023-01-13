@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    
+    <style>
+        input, textarea {
+            color:black;
+            margin: 5px;
+        }
+        div{
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            background-color: paleturquoise;
+        }
+        nav{
+        background-color: lightgrey;
+        }
+        header{
+            margin: 0px 0px 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <header style="background-color: lightgrey; font-size: 45px; text-align: center";>Enquiry Form</header>
+    <div>
+        
+        <form method="post" action="./formsubmition.html" target="_self">
+            <label for="fname">Name</label>
+            <input type="text" placeholder="Please enter name" name="fname">
+            
+    
+            <label for="email">Enter your email</label>
+            <input type="email" id="email" name="email">
+            <br>
+    
+            <label for="number">Number</label>
+            <input type="tel" placeholder="Please enter contact number" name="number">
+            
+    
+            <label for="age">Enter Age</label>
+            <input type="number" placeholder="Please enter your age" name="number"/>
+            <br>
+    
+            <input type="radio" name="gender" value="male"/>
+            <label for="male">Male</label>
+            
+    
+            <input type="radio" name="gender" value="female"/>
+            <label for="female">Female</label>
+            <br>
+    
+            <label for="color">Select your favourite color</label>
+            <input type="color" name="color">
+            
+    
+            <label for="Select Birth Date"></label>
+            <input type="date" name="birthdate">
+            <br>
+    
+            <label for="time"></label>
+            <input type="time" name="time">
+            
+    
+            <label for="files">Select Files</label>
+            <input type="files" name="files" multiple/>
+            <br>
+
+            <input type="checkbox" name="term"/>
+            <label for="term">I agree to terms & conditions</label>
+            <br>
+    
+            <label for="pwd">Password</label>
+            <input type="password" placeholder="please enter password"/>
+            <br>
+    
+            <label for="country">Select Country</label>
+            <select name="country">
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="america">America</option>
+                <option value="china">China</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="saudi arab">Saudi Arab</option>
+            </select>
+            
+            <br>
+            
+            <button>Submit</button>
+            <input type="reset"/>
+        </form>
+        </div>
+        <div>
+        <footer>
+            <p>Contact us at:-</p> 
+            <a href="https://www.facebook.com/tagoreacademy?mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a href="https://instagram.com/_tagore.academy.offical_?igshid=NDk5N2NlZjQ=" target="_blank">Instagram</a>
+            <a herf="https://www.tagoreacademy.org.in" target="_blank">Email</a>
+        </footer>
+        </div>
+        <div background="teal;">© 2015 All Rights Reserved.Enquiry Form</div>
+
+</body>
+</html>
